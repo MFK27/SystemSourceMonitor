@@ -72,18 +72,18 @@ namespace OperatingSystemProject
             this.btn_systemResource.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_systemResource.Font = new System.Drawing.Font("Times New Roman", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btn_systemResource.ForeColor = System.Drawing.Color.White;
-            this.btn_systemResource.Location = new System.Drawing.Point(695, 544);
+            this.btn_systemResource.Location = new System.Drawing.Point(581, 544);
             this.btn_systemResource.Name = "btn_systemResource";
-            this.btn_systemResource.Size = new System.Drawing.Size(165, 41);
+            this.btn_systemResource.Size = new System.Drawing.Size(279, 41);
             this.btn_systemResource.TabIndex = 15;
-            this.btn_systemResource.Text = "Resource";
+            this.btn_systemResource.Text = "System Resource Usage";
             this.btn_systemResource.UseVisualStyleBackColor = true;
             this.btn_systemResource.Click += new System.EventHandler(this.btn_systemResource_Click);
             // 
             // txt_pcInfo
             // 
             this.txt_pcInfo.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.txt_pcInfo.Location = new System.Drawing.Point(360, 453);
+            this.txt_pcInfo.Location = new System.Drawing.Point(360, 444);
             this.txt_pcInfo.Multiline = true;
             this.txt_pcInfo.Name = "txt_pcInfo";
             this.txt_pcInfo.Size = new System.Drawing.Size(500, 70);
@@ -93,7 +93,7 @@ namespace OperatingSystemProject
             // 
             this.txt_hdd.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.txt_hdd.ForeColor = System.Drawing.Color.Black;
-            this.txt_hdd.Location = new System.Drawing.Point(360, 350);
+            this.txt_hdd.Location = new System.Drawing.Point(360, 344);
             this.txt_hdd.Multiline = true;
             this.txt_hdd.Name = "txt_hdd";
             this.txt_hdd.Size = new System.Drawing.Size(500, 70);
@@ -102,7 +102,7 @@ namespace OperatingSystemProject
             // txt_cpu
             // 
             this.txt_cpu.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.txt_cpu.Location = new System.Drawing.Point(360, 247);
+            this.txt_cpu.Location = new System.Drawing.Point(360, 244);
             this.txt_cpu.Multiline = true;
             this.txt_cpu.Name = "txt_cpu";
             this.txt_cpu.Size = new System.Drawing.Size(500, 70);
@@ -114,7 +114,7 @@ namespace OperatingSystemProject
             this.btn_pcInfo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_pcInfo.Font = new System.Drawing.Font("Times New Roman", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btn_pcInfo.ForeColor = System.Drawing.Color.White;
-            this.btn_pcInfo.Location = new System.Drawing.Point(155, 453);
+            this.btn_pcInfo.Location = new System.Drawing.Point(155, 444);
             this.btn_pcInfo.Name = "btn_pcInfo";
             this.btn_pcInfo.Size = new System.Drawing.Size(175, 70);
             this.btn_pcInfo.TabIndex = 11;
@@ -128,7 +128,7 @@ namespace OperatingSystemProject
             this.btn_hdd.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_hdd.Font = new System.Drawing.Font("Times New Roman", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btn_hdd.ForeColor = System.Drawing.Color.White;
-            this.btn_hdd.Location = new System.Drawing.Point(155, 350);
+            this.btn_hdd.Location = new System.Drawing.Point(155, 344);
             this.btn_hdd.Name = "btn_hdd";
             this.btn_hdd.Size = new System.Drawing.Size(175, 70);
             this.btn_hdd.TabIndex = 10;
@@ -142,7 +142,7 @@ namespace OperatingSystemProject
             this.btn_cpu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_cpu.Font = new System.Drawing.Font("Times New Roman", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btn_cpu.ForeColor = System.Drawing.Color.White;
-            this.btn_cpu.Location = new System.Drawing.Point(155, 247);
+            this.btn_cpu.Location = new System.Drawing.Point(155, 244);
             this.btn_cpu.Name = "btn_cpu";
             this.btn_cpu.Size = new System.Drawing.Size(175, 70);
             this.btn_cpu.TabIndex = 9;

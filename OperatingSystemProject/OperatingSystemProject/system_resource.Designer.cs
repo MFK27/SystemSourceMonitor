@@ -84,7 +84,7 @@ namespace OperatingSystemProject
             this.btn_listele.Name = "btn_listele";
             this.btn_listele.Size = new System.Drawing.Size(240, 41);
             this.btn_listele.TabIndex = 10;
-            this.btn_listele.Text = "Runnig Processes";
+            this.btn_listele.Text = "Running Processes";
             this.btn_listele.UseVisualStyleBackColor = true;
             this.btn_listele.Click += new System.EventHandler(this.btn_listele_Click);
             // 
