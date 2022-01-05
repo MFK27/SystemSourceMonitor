@@ -178,7 +178,7 @@ namespace OperatingSystemProject
             this.MaximizeBox = false;
             this.Name = "system_resource";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "system_resource";
+            this.Text = "System Resource Usage";
             this.Load += new System.EventHandler(this.system_resource_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
