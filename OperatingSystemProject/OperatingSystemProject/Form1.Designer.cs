@@ -72,7 +72,7 @@ namespace OperatingSystemProject
             this.btn_systemResource.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_systemResource.Font = new System.Drawing.Font("Times New Roman", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btn_systemResource.ForeColor = System.Drawing.Color.White;
-            this.btn_systemResource.Location = new System.Drawing.Point(830, 564);
+            this.btn_systemResource.Location = new System.Drawing.Point(695, 549);
             this.btn_systemResource.Name = "btn_systemResource";
             this.btn_systemResource.Size = new System.Drawing.Size(165, 41);
             this.btn_systemResource.TabIndex = 15;
@@ -154,11 +154,12 @@ namespace OperatingSystemProject
             // 
             this.lbl_baslik.AutoSize = true;
             this.lbl_baslik.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_baslik.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbl_baslik.Font = new System.Drawing.Font("Times New Roman", 22.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lbl_baslik.ForeColor = System.Drawing.Color.White;
             this.lbl_baslik.Location = new System.Drawing.Point(324, 54);
             this.lbl_baslik.Name = "lbl_baslik";
-            this.lbl_baslik.Size = new System.Drawing.Size(316, 44);
+            this.lbl_baslik.Size = new System.Drawing.Size(318, 46);
             this.lbl_baslik.TabIndex = 16;
             this.lbl_baslik.Text = "Source Of PC Info";
             // 

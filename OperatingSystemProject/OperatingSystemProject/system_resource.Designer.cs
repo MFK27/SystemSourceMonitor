@@ -69,7 +69,7 @@ namespace OperatingSystemProject
             this.lstbox_islemler.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.lstbox_islemler.FormattingEnabled = true;
             this.lstbox_islemler.ItemHeight = 16;
-            this.lstbox_islemler.Location = new System.Drawing.Point(231, 306);
+            this.lstbox_islemler.Location = new System.Drawing.Point(232, 306);
             this.lstbox_islemler.Name = "lstbox_islemler";
             this.lstbox_islemler.Size = new System.Drawing.Size(506, 180);
             this.lstbox_islemler.TabIndex = 11;
@@ -80,7 +80,7 @@ namespace OperatingSystemProject
             this.btn_listele.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_listele.Font = new System.Drawing.Font("Times New Roman", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btn_listele.ForeColor = System.Drawing.Color.White;
-            this.btn_listele.Location = new System.Drawing.Point(364, 504);
+            this.btn_listele.Location = new System.Drawing.Point(365, 504);
             this.btn_listele.Name = "btn_listele";
             this.btn_listele.Size = new System.Drawing.Size(240, 41);
             this.btn_listele.TabIndex = 10;
@@ -95,7 +95,7 @@ namespace OperatingSystemProject
             this.btn_startAndStop.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_startAndStop.Font = new System.Drawing.Font("Times New Roman", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btn_startAndStop.ForeColor = System.Drawing.Color.White;
-            this.btn_startAndStop.Location = new System.Drawing.Point(364, 245);
+            this.btn_startAndStop.Location = new System.Drawing.Point(365, 245);
             this.btn_startAndStop.Name = "btn_startAndStop";
             this.btn_startAndStop.Size = new System.Drawing.Size(240, 41);
             this.btn_startAndStop.TabIndex = 9;
@@ -106,7 +106,7 @@ namespace OperatingSystemProject
             // progressBar_ram
             // 
             this.progressBar_ram.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.progressBar_ram.Location = new System.Drawing.Point(258, 191);
+            this.progressBar_ram.Location = new System.Drawing.Point(259, 191);
             this.progressBar_ram.Name = "progressBar_ram";
             this.progressBar_ram.Size = new System.Drawing.Size(453, 36);
             this.progressBar_ram.TabIndex = 8;
@@ -114,7 +114,7 @@ namespace OperatingSystemProject
             // progressBar_cpu
             // 
             this.progressBar_cpu.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.progressBar_cpu.Location = new System.Drawing.Point(258, 123);
+            this.progressBar_cpu.Location = new System.Drawing.Point(259, 123);
             this.progressBar_cpu.Name = "progressBar_cpu";
             this.progressBar_cpu.Size = new System.Drawing.Size(453, 36);
             this.progressBar_cpu.TabIndex = 7;
@@ -149,11 +149,12 @@ namespace OperatingSystemProject
             // 
             this.lbl_pageName.AutoSize = true;
             this.lbl_pageName.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_pageName.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbl_pageName.Font = new System.Drawing.Font("Times New Roman", 22.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lbl_pageName.ForeColor = System.Drawing.Color.White;
             this.lbl_pageName.Location = new System.Drawing.Point(287, 43);
             this.lbl_pageName.Name = "lbl_pageName";
-            this.lbl_pageName.Size = new System.Drawing.Size(395, 44);
+            this.lbl_pageName.Size = new System.Drawing.Size(397, 46);
             this.lbl_pageName.TabIndex = 16;
             this.lbl_pageName.Text = "System Resource Usage";
             // 
